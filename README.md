@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Plagiarism Checker
 
@@ -32,8 +33,9 @@ Implemented for efficient data storage and retrieval
 git clone https://github.com/thanujaashok/PlagiarismChecker.git
 ## Test Run
 
-![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/screenshots/homepage.png)
-![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/screenshots/login.png)
-![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/screenshots/input.png)
-![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/screenshots/result.png)
-![App Screenshot](https://github.com/thanujaashok/Timetablescheduler/blob/main/screenshots/history.png)
+![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/screenshots/Homepage.png)
+![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/screenshots/Login.png)
+![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/new/Screenshots/Input.png)
+![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/new/Screenshots/Result.png)
+![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/new/Screenshots/History.png)
+
