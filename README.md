@@ -33,8 +33,8 @@ Implemented for efficient data storage and retrieval
 git clone https://github.com/thanujaashok/PlagiarismChecker.git
 ## Test Run
 
-![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/screenshots/Homepage.png)
-![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/screenshots/Login.png)
+![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/Screenshots/Homepage.png)
+![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/Screenshots/Login.png)
 ![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/new/Screenshots/Input.png)
 ![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/new/Screenshots/Result.png)
 ![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/new/Screenshots/History.png)
