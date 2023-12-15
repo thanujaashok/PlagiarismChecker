@@ -3,7 +3,7 @@
 # Plagiarism Checker
 
 
-This project aims to develop a sophisticated Plagiarism Detection Tool designed to accurately assess the similarity index between two documents in response to the escalating challenge of plagiarism. Specifically tailored for research articles, code snippets, and similar texts, the tool provides a quantitative measure of similarity, enabling users to identify potential instances of plagiarism. 
+This project aims to develop a sophisticated Plagiarism Detection Tool to accurately assess the similarity index between two documents in response to the escalating challenge of plagiarism. Specifically tailored for research articles, code snippets, and similar texts, the tool provides a quantitative measure of similarity, enabling users to identify potential instances of plagiarism. 
 
 
 ## Features
