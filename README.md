@@ -34,9 +34,13 @@ git clone https://github.com/thanujaashok/PlagiarismChecker.git
 ## Test Run
 
 ![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/Screenshots/Homepage.png)
+
 ![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/Screenshots/Login.png)
+
 ![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/Screenshots/Input.png)
+
 ![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/Screenshots/Result.png)
+
 ![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/main/Screenshots/History.png)
 
 
