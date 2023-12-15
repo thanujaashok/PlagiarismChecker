@@ -38,6 +38,5 @@ git clone https://github.com/thanujaashok/PlagiarismChecker.git
 ![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/new/Screenshots/Input.png)
 ![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/new/Screenshots/Result.png)
 ![App Screenshot](https://github.com/thanujaashok/PlagiarismChecker/blob/new/Screenshots/History.png)
-=======
->>>>>>> 8bcda809fc9ecafae85ea404036720eadd67566b
+
 
