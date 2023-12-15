@@ -1,0 +1,136 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    .btn-signup {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Sign Up</h1>
+
+    <form action="{{ url_for('signup') }}" method="POST">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" class="form-control" required>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-signup">Sign Up</button>
+    </form>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plagarism</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="head">
+      <a class="logo">Capcut Cookie</a>
+      <nav class="navbar">
+        <a href="index" class="Home">Home</a>
+        <a href="mainn" class="about">About</a>
+        <a href="signin" class="Login">Log in</a>
+        <a href="signup" class="tool">sign up</a>
+      </nav>
+    </header>
+    <section class="login-box">
+      <div class="form">
+        <!---------------------Sign up-------->
+        <div class="signup-con" id="signup">
+          <div class="top">
+            <span
+              >Have an Account?<a href="signin">Sign in</a></span
+            >
+            <h1>Sign Up</h1>
+          </div>
+          <form action="{{ url_for('signup') }}" method="POST">
+          <div class="two-forms">
+            <div class="input-box">
+              <input type="text" name="Firstname" class="field" placeholder="Firstname" />
+              <i class="bx bx-user"></i>
+            </div>
+            <div class="input-box">
+              <input type="text" name="Lastname" class="field" placeholder="Lastname" />
+              <i class="bx bx-user"></i>
+            </div>
+          </div>
+          <div class="input-box">
+            <input type="text" name="email" class="field" placeholder="E-Mail" />
+            <i class="bx bx-envelope"></i>
+          </div>
+          <div class="input-box">
+            <input type="password" name="password" class="field" placeholder="Password" />
+            <i class="bx bx-lock-alt"></i>
+          </div>
+          <div class="input-box">
+            <input type="submit" class="submit" value="register" />
+          </div>
+          <div class="two-col">
+            <div class="one">
+              <input type="checkbox" class="reg-checkbox" />
+              <label for="reg-checkbox">Remember Me</label>
+            </div>
+            <div class="two">
+              <a href="#" class="tc">Terms and Conditions</a>
+            </div>
+          </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

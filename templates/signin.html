@@ -1,0 +1,90 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Sign In</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .container {
+      max-width: 400px;
+      margin-top: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mb-4">Sign In</h1>
+    <form action="{{ url_for('signin') }}" method="POST">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign In</button>
+    </form>
+  </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plagarism</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="head">
+      <a class="logo">Capcut Cookie</a>
+      <nav class="navbar">
+        <a href="index" class="Home">Home</a>
+        <a href="mainn" class="about">About</a>
+        <a href="signin" class="Login">Log in</a>
+        <a href="signup" class="tool">sign up</a>
+      </nav>
+    </header>
+    <section class="login">
+      <div class="form">
+        <div class="signin-con" id="sigin">
+          <div class="top">
+            <span>Don't have an Account?<a href="signup">Sign up</a></span>
+            <h1>Sign in</h1>
+          </div>
+          <form action="{{ url_for('signin') }}" method="POST">
+          <div class="input-box">
+            <input type="email" class="field" name="email" placeholder="E-Mail" />
+            <i class="bx bx-user"></i>
+          </div>
+          <div class="input-box">
+            <input type="password" class="field" name="password" placeholder="Password" />
+            <i class="bx bx-lock-alt"></i>
+          </div>
+          <div class="input-box">
+            <input type="submit" class="submit" value="register" />
+          </div>
+          <div class="two-col">
+            <div class="one">
+              <input type="checkbox" class="signin-checkbox" />
+              <label for="signin-checkbox">Remember Me</label>
+            </div>
+            <div class="two">
+              <a href="#" class="fp">|Forget Password</a>
+            </div>
+          </div>
+        </div>
+      </form>
+      </div>
+    </section>
+  </body>
+</html>
